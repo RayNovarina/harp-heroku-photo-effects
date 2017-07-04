@@ -1,0 +1,155 @@
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.css-management-profile-column {
+  text-align: left;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #F0F8FF;
+}
+
+.css-management-profile-column
+.profiles-container {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container {
+  padding: 6px;
+  border-bottom: solid 2px #F0F8FF;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.profile-photo {
+  float: left;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.profile-photo img {
+  width: 40px;
+  height: 40px;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.info {
+  padding-left: 52px;
+  padding-top: 2px;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.info
+.name {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.info
+.title {
+  font-size: .8em;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.short-bio {
+  display: none;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.bio-photo {
+  display: none;
+}
+
+.css-management-profile-column
+.profiles-container
+.profile-container
+.bio-pixell-array {
+  display: none;
+  width: 780px;
+  height: 780px;
+}
+
+/* ------------------------------------ */
+.css-management-bio-column {
+  text-align: left;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #F0F8FF;
+}
+
+.css-management-bio-column
+.bios-container
+.bio-container
+.info {
+  padding-left: 4px;
+  padding-top: 60px;
+}
+.css-management-bio-column
+.bios-container
+.bio-container
+.info
+.name {
+  font-size: 3.5em;
+  font-weight: 300;
+  color: #00BFFF;
+}
+
+.css-management-bio-column
+.bios-container
+.bio-container
+.info
+.title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #8FBC8F;
+}
+
+.css-management-bio-column
+.bios-container
+.bio-container
+.info
+.short-bio {
+  padding-top: 60px;
+  font-size: 1.3em;
+  line-height: 2em;
+  color: grey;
+}
+
+.css-management-bio-column
+.bios-container
+.bio-container
+.bio-background-image {
+  position: fixed;
+  top: 0%;
+  left: 41%;
+  width: 780px;
+  height: 780px;
+}
+
+.css-management-bio-column
+.bios-container
+.bio-container
+.bio-background-image
+.bio-pixell-array {
+  width: 780px;
+  height: 780px;
+}
